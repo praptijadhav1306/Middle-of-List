@@ -5,6 +5,7 @@ struct node{
     int data;
     node *next;
 };
+
 void printlist(node*head){
     node * temp = head;
     while(temp!=NULL){
